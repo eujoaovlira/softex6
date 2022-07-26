@@ -1,0 +1,229 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	 inteiro terrestre, pessoa, capacete, pesado, pedal, passageiro, trilho, pista, alto, leve, carroceiria, cobrador
+
+	 escreva ("qual meio de trasporte quero usar hoje? e terrestre? 1(Sim 2(Nao")
+	 leia (terrestre)
+	 se(terrestre == 1){
+
+	 	escreva ("cabe uma pessoa? 1(Sim 2(Não")
+	 	leia (pessoa)
+	 	se (pessoa == 1){
+
+	 		escreva ("é pesado? 1(Sim 2(Não")
+	 		leia (pesado)
+	 		se (pesado == 1){
+	 			escreva( "Trasporte escolhido foi o trator")
+
+	 			escreva ("e pesado? 1(Sim 2(Não")
+	 			leia (pesado)
+	 			se (pesado== 2 ){
+
+	 				escreva ("tem pedal? 1(Sim 2(Não")
+	 				leia (pedal)
+	 				se (pedal== 1){
+
+	 					escreva ("usa capacete? 1(Sim 2(Não")
+	 					leia (capacete)
+	 					se (capacete == 1){
+	 						escreva ("Tasporte escolhido foi a Moto")
+
+	 						escreva ("tem passageiro 1(Sim 2(Não")
+	 						leia (passageiro)
+	 						se (passageiro == 1){
+	 							
+	 							escreva ("Usa trilho 1(Sim 2(Não")
+	 							leia (trilho)
+	 							se (trilho == 1){
+	 						     escreva ("trasposte escolhido foi o Trem")
+
+	 						     escreva ("anda na pista? 1(Sim 2(Não")
+	 						     leia (pista)
+	 						     se (pista == 1){
+
+	 						     	escreva ("é alto? 1(Sim 2Não")
+	 						     	leia (alto)
+	 						     	se (alto == 1){
+
+	 						     		escreva ("é veículo leve? 1(Sim 2(Não")
+	 						     		leia (leve)
+	 						     		se (leve == 1){
+	 						     		escreva( "Trasporte escolhido foi o Carro")
+
+	 						     		escreva ("Usa carroceria? 1(Sim 2(Não")
+	 						     		leia (carroceiria)
+	 						     		se (carroceiria == 1){
+	 						     			escreva ( "Trasporte escolhido foi o Caminhão")
+
+	 						     			escreva ("pode ter cobrador? 1(Sim 2(Não")
+	 						     			leia (cobrador)
+	 						     			se (cobrador == 1){
+	 						     				escreva ("O Trasporte escolhido foi o Ónibus")
+
+
+	 						     				se(terrestre == 2){
+
+	 inteiro aereo, pular, dentro,devagar, piloto, fixas, vertical
+
+	 
+		    escreva("É Áereo? 1)Sim 2)Não ")
+		    leia(aereo)
+		    se (aereo ==1){
+
+		    	escreva ("precisa pular? 1(Sim 2(Não")
+		    	leia (pular)
+		    	se (pular == 1){
+		    		escreva("Trasporte escolhido foi Asa Delta")
+
+		    		escreva ("Viaja dentro 1(Sim 2(Não")
+		    		leia (dentro)
+		    		se (dentro == 1){
+
+		    			escreva ("É devagar? 1(Sim 2(Não")
+		    			leia(devagar)
+		    			se (devagar == 1){
+		    		     escreva ("Trasporte escolhido foi Balão")
+
+		    		     escreva ("É devagar? 1(Sim 2(Não")
+		    			leia(devagar)
+		    			se (devagar == 2){
+
+		    				escreva ("tem piloto?")
+		    				leia (piloto)
+		    				se (piloto ==1){
+
+		    					escreva ("possui assas fixas? 1(Sim 2(Não")
+		    					leia (fixas)
+		    					se (fixas == 1){
+		    						escreva ("Trasporte escolhido foi Avião")
+
+		    						escreva ("possui assas fixas? 1(Sim 2(Não")
+		    					leia (fixas)
+		    					se (fixas == 2){
+
+		    						escreva ("Faz voo Vertical? 1(Sim 2(Não")
+		    						leia (vertical)
+	    						se (vertical == 1){
+	    							escreva ("Trasporte escolhido foi Hélicoptero")
+
+
+
+	    							se(aereo == 2){
+
+
+	    							inteiro aquatico, dgua, navega, vela, motor, descoberto
+	    							
+		    escreva("É aquático? 1)Sim 2)Não ")
+		    leia(aquatico)
+		    se (aquatico ==1){
+
+		    	escreva ("É corberto dgua? 1(Sim 2(Não")
+		    	leia (dgua)
+		    	se (dgua ==1){
+		    		escreva ("Trasporte escolhido foi Submarino")
+
+		    	escreva ("É corberto dgua? 1(Sim 2(Não")
+		    	leia (dgua)
+		    	se (dgua ==2){
+
+		    	escreva ("navega na agua? 1(Sim 2(Não")		
+		    	leia (navega)
+		    	se (navega == 1){
+
+		    		escreva ("Possui vela? 1(Sim 2(Não")
+		    		leia (vela)
+		    		se (vela == 1){
+		    			escreva ("Trasporte escolhido foi o Barco")
+
+
+		    		escreva ("Possui vela? 1(Sim 2(Não")
+		    		leia (vela)
+		    		se (vela == 2){
+
+		    			escreva ("tem motor? 1(Sim 2(Não")
+		    			leia (motor)	
+		    			se (motor == 1){
+
+		    				escreva ("É alto? 1(Sim 2(Não")		
+		    				leia (alto)
+		    				se (alto == 1){
+		    					escreva ("Trasporte escolhido foi o Návio")
+
+		    		escreva ("Possui vela? 1(Sim 2(Não")
+		    		leia (vela)
+		    		se (vela == 2){
+
+		    			escreva ("pode ser descoberto? 1(Sim 2(Não")
+		    			leia (descoberto)
+		    			se (descoberto == 1){
+		    				escreva ("Trasporte escolhido foi a Lancha")
+		    			}
+		    		}
+		    				}
+		    		}
+		    		}
+		    	}
+
+
+		   
+
+		    
+		}
+	    							
+	    						}
+		    					}
+		    					
+
+		    	
+		    				}
+		    			}
+		    		
+		    	}
+
+
+		    	
+
+		    	
+		    }
+		    
+		}
+	 						     				}
+	 						     			}
+	 						     		}
+	 						     		}
+	 						     
+	 							}
+	 						}
+	 						
+
+	 						
+	 					}
+
+
+
+
+
+	 				
+
+
+	 				
+
+	 				
+	 			}
+	 			
+
+
+	 			
+	 			
+	 			
+	 		}
+	 		
+	 	}
+	 }
+	 
+	}
+}
+}}}}}}}}}
